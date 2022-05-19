@@ -1,0 +1,17 @@
+{
+  "name": "lego",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "live-server dist css",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "live-server": "^1.2.2"
+  }
+}
