@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #343333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  background-color: #1d1c1c;
+  color: #ffffff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+}
+body .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+body .container .box {
+  border-radius: 10px;
+  height: 20rem;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 1rem;
+}
+body .container .box i {
+  font-size: 2rem;
+  color: rgb(101, 225, 101);
+}
+body .container .box p {
+  background-color: rgba(52, 51, 51, 0.5058823529);
+  color: #ffffff;
+  padding: 0.3rem;
+  text-align: center;
+}
+body .container .box:nth-of-type(1) {
+  background-image: url(/images/student-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(2) {
+  background-image: url(/images/student-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(3) {
+  background-image: url(/images/student-3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(4) {
+  background-image: url(/images/student-4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(5) {
+  background-image: url(/images/student-5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(6) {
+  background-image: url(/images/student-6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(7) {
+  background-image: url(/images/student-7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(8) {
+  background-image: url(/images/student-8.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(9) {
+  background-image: url(/images/student-9.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .container .box:nth-of-type(2) {
+  background-image: url(/images/student-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d1c1c;
+  color: #ffffff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+body footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer i {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  -webkit-animation: icons;
+          animation: icons;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes icons {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+    color: red;
+  }
+}
+@-webkit-keyframes slide-top {
+  0% {
+    transform: translateY(0);
+    color: red;
+  }
+  100% {
+    transform: translateY(-30px);
+    color: rgb(101, 225, 101);
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+    color: red;
+  }
+  100% {
+    transform: translateY(-30px);
+    color: rgb(101, 225, 101);
+  }
+}
+body footer input {
+  padding: 1.3rem;
+  width: 7rem;
+  background-color: red;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+body footer input:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}/*# sourceMappingURL=main.css.map */
